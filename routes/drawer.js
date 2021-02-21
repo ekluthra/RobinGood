@@ -2,7 +2,7 @@ import {createDrawerNavigator} from 'react-navigation-drawer';
 import {createAppContainer} from 'react-navigation';
 
 import HomeStack from './homeStack';
-import MessageStack from './messageStack';
+import GroupStack from './groupStack';
 import DonationStack from './donationStack';
 import InvestingStack from './investingStack';
 
@@ -10,8 +10,8 @@ const RootDrawNavigator = createDrawerNavigator({
     Home: {
         screen: HomeStack,
     },
-    Message: {
-        screen: MessageStack,
+    Groups: {
+        screen: GroupStack,
     },
     Donation: {
         screen: DonationStack,
