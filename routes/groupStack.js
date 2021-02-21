@@ -1,18 +1,14 @@
 import {createStackNavigator} from 'react-navigation-stack';
 import Groups from '../screens/groups';
-import Message from '../screens/message';
-import Home from '../screens/home';
+import Specific_Group from '../screens/specific_group'
 
 const screens = {
     Groups: {
         screen: Groups
     },
-    Message: {
-        screen: Message
+    Specific_Group: {
+        screen: Specific_Group
     },
-    Home: {
-        screen: Home
-    }
 }
 
 const GroupStack = createStackNavigator(screens);

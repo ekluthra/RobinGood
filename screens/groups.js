@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { StyleSheet, Text, View, FlatList, TouchableOpacity, Button } from 'react-native';
+import { StyleSheet, Text, View, FlatList, TouchableOpacity } from 'react-native';
 
 export default function Groups({ navigation }) {
     
@@ -15,7 +15,7 @@ export default function Groups({ navigation }) {
         <FlatList
             data={groups}
             renderItem={({ item }) => (
-                <TouchableOpacity onPress={() => navigation.navigate('Message')}>
+                <TouchableOpacity onPress={() => navigation.navigate('Specific_Group', item)}>
                     <Text>{ item.name }</Text>
                 </TouchableOpacity>
             )}
