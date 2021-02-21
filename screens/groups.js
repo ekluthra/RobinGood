@@ -4,10 +4,10 @@ import { StyleSheet, Text, View, FlatList, TouchableOpacity } from 'react-native
 export default function Groups({ navigation }) {
     
     const [groups, setGroups] = useState([
-        {name: 'HighRisk Investors', key: '1'},
-        {name: 'LowRisk Investors', key: '2'},
-        {name: 'Calculated Investors', key: '3'},
-    ])
+        {name: 'HighRisk Investors', budget: '$6695', key: '1'},
+        {name: 'LowRisk Investors', budget: '$3420', key: '2'},
+        {name: 'Calculated Investors', budget: '$34900', key: '3'},
+    ]);
     
     return (
     <View style={styles.container}>
