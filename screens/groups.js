@@ -12,13 +12,10 @@ export default function Groups({ navigation }) {
     return (
     <View style={styles.container}>
 
-        {/*This one line below is a temporary code to show the onPress works for buttons*/}
-        <Button title='go to message board' onPress={() => navigation.navigate('Message')} />
-
         <FlatList
             data={groups}
             renderItem={({ item }) => (
-                <TouchableOpacity OnPress={() => navigation.navigate('Message')}>
+                <TouchableOpacity onPress={() => navigation.navigate('Message')}>
                     <Text>{ item.name }</Text>
                 </TouchableOpacity>
             )}
