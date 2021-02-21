@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
+import Card from '../shared/card';
 
 export default function Specific_Group({ navigation }) {
 
@@ -10,18 +11,19 @@ export default function Specific_Group({ navigation }) {
 
     return (
     <View style={styles.container}>
-        <Text>{ navigation.getParam('name') }</Text>
-        <Text>{ navigation.getParam('budget') }</Text>
-        { stocks.map((item) => {
-            return (
-                <View>
-                    <Text>{item.name}</Text>
-                    <Button title="Vote Yes"/>
-                    <Button title="Vote No"/>
-                </View>
-            )
-        })}
-
+        <Card>
+            <Text>Group Name: { navigation.getParam('name') }</Text>
+            <Text>Budget: { navigation.getParam('budget') }</Text>
+            { stocks.map((item) => {
+                return (
+                    <View style={styles.stock}>
+                        <Text>{item.name}</Text>
+                        <Button title="Vote Yes"/>
+                        <Button title="Vote No"/>
+                    </View>
+                )
+            })}
+        </Card>
     </View>
     );
 }
@@ -33,4 +35,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  stock: {
+      justifyContent: 'center',
+      paddingTop: 16,
+      marginTop: 16,
+      borderTopWidth: 1,
+  }
 });
