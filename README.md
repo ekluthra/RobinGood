@@ -1,5 +1,20 @@
 # RobinGood
 
+## Prerequisities
+
+npm install expo
+npm install @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install react-navigation-drawer
+npm install @react-navigation/stack
+
+npm install @react-native-firebase/app
+npm @react-native-firebase/messaging
+npm install react-native-linear-gradient
+
+npm install formik
+
+
 ## Inspiration
 Over the past month we’ve seen how well collective retail investing can bring people together.  Many people made great profits from Gamestop and other commonly shorted stocks, and ended up donating all of it to their local food shelters, homeless shelters, and charities. Our goal is that we wanted to make investing more community based, accessible, and beneficial to society. 
 
