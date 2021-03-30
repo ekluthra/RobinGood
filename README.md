@@ -1,7 +1,7 @@
 # RobinGood
 
 ## Inspiration
-We wanted to make investing more community based, accessible, and beneficial to society.
+Over the past month we’ve seen how well collective retail investing can bring people together.  Many people made great profits from Gamestop and other commonly shorted stocks, and ended up donating all of it to their local food shelters, homeless shelters, and charities. Our goal is that we wanted to make investing more community based, accessible, and beneficial to society. 
 
 ## What it does
 Allows people to trade stocks by democratic voting, and donate their capital gains to charity.
