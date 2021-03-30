@@ -2,17 +2,22 @@
 
 ## Prerequisities
 
-npm install expo
-npm install @react-navigation/native
-expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
-npm install react-navigation-drawer
-npm install @react-navigation/stack
+### Necessary Installations to Get Started
 
-npm install @react-native-firebase/app
-npm @react-native-firebase/messaging
-npm install react-native-linear-gradient
+We used Visual Studio Code and the Expo App on our phones to write the code and then view our application respectively. We were able to connect the two after running "npm install expo" in the terminal. This would gave us a QR code that we could use to view the app through the Expo application on our phones.
 
-npm install formik
+### NPM Installations
+- npm install expo
+- npm install @react-navigation/native
+- expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+- npm install react-navigation-drawer
+- npm install @react-navigation/stack
+
+- npm install @react-native-firebase/app
+- npm @react-native-firebase/messaging
+- npm install react-native-linear-gradient
+
+- npm install formik
 
 
 ## Inspiration
