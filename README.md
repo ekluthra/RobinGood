@@ -21,7 +21,7 @@ Our development team learned new technologies by using tools like react native, 
 ## What's next for RobinGood
 Donations Feature = allow lending money to those with less buying power and allow donations to charitable causes. Profile Feature = complete the profile page (users and management already created on back-end, but did not link everything) Overall better styling = this wasn’t the minimum viable product of our project. That is why we concentrated much less on the styling, and much more on the actual functionality of our app. However, it would be beneficial for us to invest time in styling our app for better engagement with
 
-Built With
+## Built With
 - alpaca
 - cloud
 - coackroach
